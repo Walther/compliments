@@ -14,7 +14,10 @@
   "author": "Veeti Haapsamo <veeti.haapsamo@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "test":
-      "yarn run istanbul cover ./node_modules/mocha/bin/_mocha --reporter lcovonly"
+    "test": "yarn run istanbul cover ./node_modules/mocha/bin/_mocha --reporter lcovonly"
+  },
+  "dependencies": {
+    "i18next": "^10.2.1",
+    "i18next-node-fs-backend": "^1.0.0"
   }
 }
